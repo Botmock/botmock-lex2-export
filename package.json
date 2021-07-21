@@ -1,0 +1,16 @@
+{
+  "name": "botmock-lex2-export",
+  "version": "1.0.0",
+  "description": "Covert botmock project into lex 2 project",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "debug": "npm run start && zip -r output.zip output"
+  },
+  "dependencies": {
+    "@botmock/export": "^0.44.0",
+    "@types/node": "^14.14.37",
+    "dotenv": "^8.2.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
