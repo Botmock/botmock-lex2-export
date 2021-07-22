@@ -1,6 +1,6 @@
 # Botmock Lex 2 Export
 
-Node.js project for importing [Botmock](https://botmock.com) projects in [Composer](https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html)
+Node.js project for importing [Botmock](https://botmock.com) projects in [Lex Console](https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html)
 
 ## Table of Contents
 
