@@ -15,7 +15,7 @@ async function main(): Promise<void> {
     projectId: process.env.BOTMOCK_PROJECT_ID as string,
     boardId: process.env.BOTMOCK_BOARD_ID,
   };
-  const exporter = new Lex2Exporter({ token: env.BOTMOCK_TOKEN as string });
+  const exporter = new Lex2Exporter({ token: process.env.BOTMOCK_TOKEN as string });
   const { data } = await exporter.exportProjectUnderDataTransformations({ projectReference });
 
   const writeResult = await (new FileWriter({ directoryRoot: "./output" })).writeAllResourcesToFiles({ data });
