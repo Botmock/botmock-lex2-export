@@ -7,7 +7,7 @@
     "debug": "npm run start && zip -r output.zip output"
   },
   "dependencies": {
-    "@botmock/export": "^0.44.0",
+    "@botmock/export": "0.45.0",
     "@types/node": "^14.14.37",
     "dotenv": "^8.2.0",
     "ts-node": "^9.1.1",
